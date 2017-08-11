@@ -1,6 +1,6 @@
 # Política de privacidad
 
-La aplicación CELL Recorder no usa ni recopila información del usuario.
+La aplicación CELL Recorder no recopila datos confidenciales del usuario. Tampoco recopila datos del dispositivo.
 
 ## Información que es recogida
 N/A
