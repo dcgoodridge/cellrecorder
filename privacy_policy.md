@@ -1,19 +1,18 @@
-# POLÍTICA DE PRIVACIDAD
+# Política de privacidad
+
+La aplicación CELL Recorder no usa ni recopila información del usuario. Tampoco dispone de liberías de terceros que recopilen informac
 
 ## Información que es recogida
-
-Ninguna.
+-
 
 ## Uso de la información recogida
-
-Ninguno.
+-
 
 ## Cookies
-
-Nada.
+-
 
 ## Enlaces a Terceros
+-
 
-Ninguno.
-
-Control de su información personal
+## Control de su información personal
+-
