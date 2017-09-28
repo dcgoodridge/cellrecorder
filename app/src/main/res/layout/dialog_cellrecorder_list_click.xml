@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+        android:id="@+id/dialog_nmearecorder_list_click_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:text="File name"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_nmearecorder_list_click_open"
+        style="@style/CKButton"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:tint="#777"
+            android:src="@mipmap/ic_find_in_page_black_48dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abrir..."
+            android:background="#0000"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_nmearecorder_list_click_share"
+        style="@style/CKButton"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:tint="#777"
+            android:src="@mipmap/ic_share_black_48dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compartir"
+            android:background="#0000"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_nmearecorder_list_click_delete"
+        style="@style/CKButton"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:tint="#777"
+            android:src="@mipmap/ic_delete_black_48dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:background="#0000"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

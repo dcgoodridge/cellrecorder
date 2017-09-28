@@ -1,0 +1,3 @@
+<resources>
+    <string name="authority_fileprovider">net.dcgoodridge.cellrecorder.fileprovider</string>
+</resources>

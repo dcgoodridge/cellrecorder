@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".CellrecorderListActivity">
+
+<ListView
+    android:id="@+id/nmearecorder_list_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</ListView>
+
+<include
+    android:id="@+id/nmearecorder_list_empty_view"
+    layout="@layout/item_filelistgeneric_emptylist"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:visibility="gone"/>
+
+</LinearLayout>

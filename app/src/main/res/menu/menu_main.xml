@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_recordedfiles"
+        android:icon="@mipmap/ic_folder_open_white_48dp"
+        android:title="Ficheros grabados"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu_config"
+        android:icon="@mipmap/ic_settings_applications_white_48dp"
+        android:title="Configuración"
+        app:showAsAction="always">
+    </item>
+</menu>

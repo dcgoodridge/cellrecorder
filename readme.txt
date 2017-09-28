@@ -1,0 +1,1 @@
+Cargar el proyecto con Android Studio 2.1.1, Import project > Elegir el build.gradle

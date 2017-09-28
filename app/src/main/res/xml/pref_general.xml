@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General" >
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="timestamp_append"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations"/>
+
+    </PreferenceCategory>
+
+    <Preference android:title="Política de privacidad" >
+        <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/dcgoodridge/cellrecorder/blob/master/PRIVACY_POLICY_es.md" />
+    </Preference>
+
+</PreferenceScreen>
